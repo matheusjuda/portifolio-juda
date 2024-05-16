@@ -475,6 +475,14 @@ body {
 
   margin-left: 90px;
 }
+#paragrafo-links {
+  color: var(--color-pink);
+}
+#paragrafo-links:hover {
+  transition: color .3s ease;
+  color: var(--color-blue);
+}
+
 
 @media (max-width: 768px) {
   .links a img {
